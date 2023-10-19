@@ -11,8 +11,10 @@
 
             //Masukkan kata kata 
             $TestSentence = "Dania Angga Barry Lana";
+            //Menghitung Kata yang dimasukan
             $Wordcount = $wc ->countword($TestSentence);
             
+            //jika kata == 4 maka true
             $this -> assertEquals(4, $Wordcount);
         }
     }
